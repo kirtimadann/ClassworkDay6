@@ -1,12 +1,9 @@
 package com.bl.day6;
-
 public class PerfectNumber {
 
 
     public static void main(String[] args) {
         PerfectNumber obj = new PerfectNumber();
-
-
         int num =497;
         int sum =0;
         for (int i=1; i<num; i++){
@@ -14,7 +11,6 @@ public class PerfectNumber {
             if(num%i == 0 ){
 
                 sum = sum + i;
-
             }
         }
 
